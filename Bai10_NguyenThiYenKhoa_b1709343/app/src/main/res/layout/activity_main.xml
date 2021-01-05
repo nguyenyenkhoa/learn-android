@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#ffffaa"
+        android:text="@string/txt0"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="#fbf"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:hint="@string/edittext1"/>
+
+    <Button
+        android:id="@+id/btnSave1"
+        android:onClick="onClickSaveInternal"
+        android:text="@string/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:background="#bff"
+        />
+
+    <Button
+        android:id="@+id/btnSave2"
+        android:onClick="onClickSaveExternal"
+        android:text="@string/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#A0D381"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnLoad1"
+        android:onClick="onClickLoadInternal"
+        android:text="@string/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#bff"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnLoad2"
+        android:onClick="onClickLoadExternal"
+        android:text="@string/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="#A0D381"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:onClick="showGuide"
+        android:text="@string/btn6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        tools:ignore="OnClick" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/hoasung"/>
+    </FrameLayout>
+
+</LinearLayout>

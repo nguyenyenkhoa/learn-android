@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray">
+        <item >Nguyễn Thị Yến Khoa</item>
+        <item >Nguyễn Minh Nguyệt</item>
+        <item >Đặng Quốc Dũng</item>
+        <item >Trần Minh Tiến</item>
+        <item >Trần Đức Phương</item>
+        <item >Tiêu Tiến Phát</item>
+        <item >Trần Ngọc Mỹ</item>
+        <item >Nguyễn Hoàng Tấn</item>
+    </string-array>
+</resources>

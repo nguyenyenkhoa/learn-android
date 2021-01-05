@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="25dp"
+           android:text="ĐỀ THI THỰC HÀNH SỐ 9"
+           android:textColor="#00f"
+           android:gravity="center"
+           android:textSize="24sp"
+           android:textStyle="bold" />
+   </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="25dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#00f"
+                android:textSize="18sp"
+                android:text="Công tắc 1:" />
+            <RadioGroup
+                android:id="@+id/radiocong1"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/cong1bat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f00"
+                    android:textSize="18sp"
+                    android:text="Bật" />
+                <RadioButton
+                    android:id="@+id/cong1tat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f00"
+                    android:textSize="18sp"
+                    android:text="Tát" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/congtac1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#f00"
+                android:textSize="18sp"
+                android:background="#ff0"
+                android:text="chưa kiểm tra"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:textSize="20sp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#00f"
+                android:textSize="18sp"
+                android:text="Công tắc 2:" />
+            <RadioGroup
+                android:id="@+id/radiocong2"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <RadioButton
+                    android:id="@+id/cong2bat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f00"
+                    android:textSize="18sp"
+                    android:text="Bật" />
+                <RadioButton
+                    android:id="@+id/cong2tat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f00"
+                    android:textSize="18sp"
+                    android:text="Tát" />
+            </RadioGroup>
+            <TextView
+                android:id="@+id/congtac2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#f00"
+                android:background="#ff0"
+                android:textSize="18sp"
+                android:text="chưa kiểm tra"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp">
+            <Button
+                android:id="@+id/btnkt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:text="KIỂM TRA"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#f00" />
+            <Button
+                android:id="@+id/btnthoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="THOÁT"/>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dhcantho" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

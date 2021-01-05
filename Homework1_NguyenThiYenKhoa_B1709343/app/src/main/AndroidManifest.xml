@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homework1_nguyenthiyenkhoa_b1709343">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.PieChart5"></activity>
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.PieChart3" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.BarChart5" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.BarChart4" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.PieChart4" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.PieChart2" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.BarChart3" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.BarChart2" />
+        <activity android:name=".BarChart.BarChart3" />
+        <activity android:name=".BarChart.BarChart2" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.SimpleXYPlotActivity" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.PieChartsActivity" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.BarChartsActivity" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.NhaplieuLinesPlot" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.LinesPlotActivity" />
+        <activity android:name="com.example.homework1_nguyenthiyenkhoa_b1709343.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

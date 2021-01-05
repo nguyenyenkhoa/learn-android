@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DisplayAllContact">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTrove"
+        android:background="#c2d6d6"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#0066ff"
+        android:text="TRỞ VỀ MÀN HÌNH CHÍNH" />
+
+    <TextView
+        android:id="@+id/txtlienlac"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#cce6ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="DANH SÁCH CÁC LIÊN LẠC"
+        android:textAllCaps="true"
+        android:textColor="#ff6666"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvcontact"
+            android:background="#c2d6d6">
+
+        </ListView>
+    </FrameLayout>
+
+</LinearLayout>

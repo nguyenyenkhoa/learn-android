@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MediaContent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnTrove5"
+        android:background="#c2d6d6"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#0066ff"
+        android:layout_marginBottom="18dp"
+        android:text="TRỞ VỀ MÀN HÌNH CHÍNH" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtMedia"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:background="#cce6ff"-->
+<!--        android:gravity="center_vertical|center_horizontal"-->
+<!--        android:text="MEDIA CONTENT"-->
+<!--        android:textAllCaps="true"-->
+<!--        android:textColor="#ff6666"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginBottom="18dp"-->
+<!--        android:textStyle="bold" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mediaMenu"
+        android:background="#cce6ff"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#ff6666"
+        android:layout_marginBottom="18dp"
+        android:text="MEDIA CONTENT" />
+</LinearLayout>
